@@ -3,7 +3,7 @@
 export default function RareLeague() {
   return (
     <section className=" bg-[url('/section.svg')] bg-cover bg-center ">
-      <div className='relative container md:py-20 py-9'>
+      <div className='relative custom-container md:py-20 py-9'>
         <div className=' grid grid-cols-1 lg:grid-cols-2  items-center'>
           {/* Left Content */}
           <div>

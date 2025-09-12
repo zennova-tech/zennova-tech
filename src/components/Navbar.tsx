@@ -4,7 +4,7 @@ import ChevronDown from './Icons/ChevronDown';
 function Navbar() {
   return (
     <header className='bg-primary text-white'>
-      <nav className='container py-2'>
+      <nav className='custom-container py-2'>
         <div className='flex items-center justify-between h-16'>
           {/* Logo */}
           <div className='flex-shrink-0'>

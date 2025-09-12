@@ -11,7 +11,7 @@
 }
 
 @layer base {
-  .container {
+  .custom-container {
     @apply max-w-[1300px] mx-auto md:px-6 lg:px-0 px-6;
   }
 }

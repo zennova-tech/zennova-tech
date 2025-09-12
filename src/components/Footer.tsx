@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import Button from './Icons/Button';
 
 export default function Footer() {
   const [phone, setPhone] = useState('');
@@ -45,19 +46,7 @@ export default function Footer() {
               rows={4}
               className='w-full border-b border-gray-300 py-2 focus:outline-none focus:border-primary'
             ></textarea>
-            <button
-              type='submit'
-              className='group bg-secondary text-white font-medium px-6 py-3 rounded-md hover:bg-white transition hover:text-secondary flex items-center justify-center gap-2'
-            >
-              Send a Message
-              <span className='hidden group-hover:inline-block transition'>
-                <img
-                  src='/icons/rightrounded.svg'
-                  alt='right'
-                  className='w-5 h-5'
-                />
-              </span>
-            </button>
+            <Button buttonText='Send Message' />
           </form>
         </div>
 
