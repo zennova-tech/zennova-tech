@@ -1,6 +1,9 @@
 'use client';
 
 import Banner from '@/components/Banner';
+import Journey from '@/components/Journey';
+import ProjectTimeline from '@/components/ProjectTimeline';
+import TechnologiesAbout from '@/components/TechnologiesAbout';
 import VisionMission from '@/components/VisionMission';
 
 function page() {
@@ -14,6 +17,9 @@ function page() {
         imageSrc='/about.svg'
       />
       <VisionMission />
+      <TechnologiesAbout />
+      <ProjectTimeline />
+      <Journey />
     </div>
   );
 }
