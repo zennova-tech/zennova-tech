@@ -36,7 +36,7 @@ export default function Expertise() {
 
   return (
     <section className='bg-primary text-white md:py-20 py-6'>
-      <div className='container'>
+      <div className='custom-container'>
         <h2 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-12'>
           Expert-Led Software Engineering for Innovation & Impact
         </h2>

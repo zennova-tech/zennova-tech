@@ -60,7 +60,7 @@ function Technologies() {
   };
   return (
     <section className='bg-[#F6F6F6] md:py-20 py-6'>
-      <div className='container'>
+      <div className='custom-container'>
         <h2 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 sm:mb-3 md:mb-3 lg:mb-6'>
           Technologies we work with
         </h2>

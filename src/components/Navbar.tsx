@@ -4,7 +4,7 @@ import ChevronDown from './Icons/ChevronDown';
 function Navbar() {
   return (
     <header className='bg-primary text-white'>
-      <nav className='container py-2'>
+      <nav className='custom-container py-3'>
         <div className='flex items-center justify-between h-16'>
           {/* Logo */}
           <div className='flex-shrink-0'>
@@ -72,7 +72,7 @@ function Navbar() {
 
           {/* Contact Us Button */}
           <div className='hidden md:hidden lg:block'>
-            <button className='bg-secondary text-white  h-[56px] w-[138px] rounded-md  transition-colors duration-200'>
+            <button className='bg-secondary text-white px-6 py-4 rounded-md  transition-colors duration-200'>
               Contact Us
             </button>
           </div>
